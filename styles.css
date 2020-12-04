@@ -615,6 +615,11 @@ iframe {
 }
 
 @media only screen and (max-width: 1050px) {
+    nav a {
+        padding: 0 24px;
+        font-size: 17px;
+    }
+    
     .article {
         height: 520px;
         width: 720px;
