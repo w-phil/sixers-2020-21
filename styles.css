@@ -484,6 +484,52 @@ iframe {
     height: 600px;
 }
 
+@media only screen and (max-width: 1800px) {
+    .heading h6{
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .heading h6{
+        font-size: 28px;
+    }
+
+    .position-head {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 1663px) {
+    .container {
+        margin: 0 250px;
+    }
+
+    .block-e {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1620px) {
+
+    .heading h6{
+        font-size: 26px;
+    }
+
+    .player-head {
+        padding-left: 45px;  
+    }
+
+    .position-head {
+        padding-left: 60px;
+    }
+
+    .height-head {
+        padding-left: 30px;
+    }
+
+}
+
 @media only screen and (max-width: 1600px) {
     .container {
         margin: 0 250px;
@@ -514,6 +560,14 @@ iframe {
     .container {
         margin: 0 125px;
     }
+
+    .position-head {
+        padding-left: 75px;
+    }
+
+    .heading h6{
+        font-size: 23px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -526,6 +580,11 @@ iframe {
     .container {
         margin: 0 75px;
     }
+
+    .position-head {
+        padding-left: 75px;
+    }
+
 }
 
 @media only screen and (max-width: 1100px) {
@@ -546,7 +605,7 @@ iframe {
     }
 
     .position-head {
-        padding-left: 90px;
+        padding-left: 75px;
     }
 
     .height-head {
