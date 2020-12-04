@@ -484,28 +484,56 @@ iframe {
     height: 600px;
 }
 
-@media only screen and (max-width: 1663px) {
-    .block-e {
-        margin-bottom: 10px;
+@media only screen and (max-width: 1600px) {
+    .container {
+        margin: 0 250px;
     }
 }
 
-@media only screen and (max-width: 1620px) {
+@media only screen and (max-width: 1500px) {
+    .container {
+        margin: 0 200px;
+    }
+}
 
-    .heading h6{
-        font-size: 26px;
+@media only screen and (max-width: 1400px) {
+    nav a {
+        font-size: 22px;
     }
 
-    .player-head {
-        padding-left: 45px;  
+    .container {
+        margin: 0 150px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    nav a {
+        font-size: 18px;
     }
 
-    .position-head {
-        padding-left: 80px;
+    .container {
+        margin: 0 125px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        margin: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        margin: 0 75px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    nav a {
+        font-size: 16px;
     }
 
-    .height-head {
-        padding-left: 30px;
+    .container {
+        margin: 0 50px;
     }
-
 }
