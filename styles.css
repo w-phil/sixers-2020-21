@@ -685,12 +685,16 @@ iframe {
         font-size: 60px;
         margin-top: 235px;
     }
-    
+
+    .photo-starter {
+        height: 500px;
+    }
 
 }
 
 @media only screen and (max-width: 1000px) {
     nav a {
+        padding: 0 27px;
         font-size: 18px;
     }
 
