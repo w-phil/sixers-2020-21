@@ -554,7 +554,7 @@ iframe {
 
 @media only screen and (max-width: 1300px) {
     nav a {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .container {
@@ -577,6 +577,10 @@ iframe {
 }
 
 @media only screen and (max-width: 1200px) {
+    nav a {
+        padding: 0 35px;
+    }
+
     .container {
         margin: 0 75px;
     }
@@ -588,10 +592,6 @@ iframe {
 }
 
 @media only screen and (max-width: 1100px) {
-    nav a {
-        font-size: 16px;
-    }
-
     .container {
         margin: 0 50px;
     }
@@ -606,6 +606,100 @@ iframe {
 
     .position-head {
         padding-left: 75px;
+    }
+
+    .height-head {
+        padding-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .article {
+        height: 520px;
+        width: 720px;
+    }
+
+    .article h4 {
+        font-size: 30px;
+    }
+    
+    .article h6 {
+        font-size: 25px;
+    }
+
+    .img1 {
+        height: 75%;
+        width: 75%;
+    }
+    .signing p {
+        font-size: 22px;
+    }
+
+    .heading h6{
+        font-size: 20px;
+    }
+
+    .player-head {
+        padding-left: 70px;  
+    }
+
+    .position-head {
+        padding-left: 80px;
+    }
+
+    .height-head {
+        padding-left: 30px;
+    }
+
+    .block-s {
+        width: 90%;
+    }
+
+    .text-overlay {
+        width: 780px;
+        height: 518px;
+    }
+    
+    .text-overlay-short {
+        width: 780px;
+        height: 436.3px;
+    }
+    
+    .text-overlay-sb {
+        width: 780px;
+        height: 520px;
+    }
+
+    .text-overlay h3 {
+        font-size: 60px;
+        margin-top: 235px;
+    }
+    
+    .text-overlay-short h3 {
+        font-size: 60px;
+        margin-top: 200px;
+    }
+    
+    .text-overlay-sb h3 {
+        font-size: 60px;
+        margin-top: 235px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+    nav a {
+        font-size: 18px;
+    }
+
+    .player-head {
+        padding-left: 70px;  
+    }
+
+    .position-head {
+        padding-left: 100px;
     }
 
     .height-head {
