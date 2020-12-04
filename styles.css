@@ -536,4 +536,21 @@ iframe {
     .container {
         margin: 0 50px;
     }
+
+    .heading h6{
+        font-size: 20px;
+    }
+
+    .player-head {
+        padding-left: 60px;  
+    }
+
+    .position-head {
+        padding-left: 90px;
+    }
+
+    .height-head {
+        padding-left: 30px;
+    }
+
 }
