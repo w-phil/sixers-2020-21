@@ -694,8 +694,8 @@ iframe {
 
 @media only screen and (max-width: 1000px) {
     nav a {
-        padding: 0 27px;
-        font-size: 16px;
+        padding: 0 24px;
+        font-size: 17px;
     }
 
     .player-head {
