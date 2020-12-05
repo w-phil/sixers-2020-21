@@ -706,6 +706,11 @@ iframe {
     .photo-starter {
         height: 500px;
     }
+    
+    iframe {
+        width: 756px;
+        height: 425.25px;
+    }
 
 }
 
