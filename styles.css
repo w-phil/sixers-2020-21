@@ -600,6 +600,11 @@ iframe {
     .position-head {
         padding-left: 75px;
     }
+    
+    iframe {
+        width: 756px;
+        height: 425.25px;
+    }
 
 }
 
