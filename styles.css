@@ -440,7 +440,7 @@ iframe {
     color: white;
     margin-top: 280px;
     text-align: center;
-    text-decoration: none;
+    text-decoration-line: underline;
 }
 
 .text-overlay-short h3 {
@@ -448,7 +448,7 @@ iframe {
     color: white;
     margin-top: 233px;
     text-align: center;
-    text-decoration: none;  
+    text-decoration: underline;  
 }
 
 .text-overlay-sb h3 {
@@ -456,7 +456,19 @@ iframe {
     color: white;
     margin-top: 280px;
     text-align: center;
-    text-decoration: none;  
+    text-decoration: underline;  
+}
+
+.text-overlay h3:hover {
+    color: blue;
+}
+
+.text-overlay-short h3:hover {
+    color: blue; 
+}
+
+.text-overlay-sb h3:hover {
+    color: blue;
 }
 
 /**********STARTER PlAYER***********/
